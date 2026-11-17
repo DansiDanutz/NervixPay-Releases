@@ -11,7 +11,7 @@ Official signed and Apple-notarized macOS downloads for NervixPay. Application s
 
 Quit an older Nervix Pay app before installing. Open the DMG and copy NervixPay v2 into Applications, or extract the ZIP and move the app there. v2 is installed separately from the older application. Browser sign-in must return to NervixPay v2 through the nervixpay:// link handler.
 
-The package includes Apple Silicon and Intel architectures. All three desktop sign-in providers were tested on Apple Silicon; Intel hardware execution has not been tested.
+The package includes Apple Silicon and Intel architectures. All three desktop sign-in providers were tested on Apple Silicon; the Intel x86_64 executable also passed all 9 packaged smoke checks under Rosetta, including its native core and sandboxed renderer. Physical Intel hardware execution has not been tested.
 
 [Website](https://nervixpay.live) · [Privacy policy](https://nervixpay.live/docs/legal/privacy) · [Terms](https://nervixpay.live/docs/legal/terms)
 
